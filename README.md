@@ -12,13 +12,13 @@ Al terminar de ejecutar el script, se generaran tres archivos :
 
   -_covid_tabaquismo_son.csv_ 
   
-  -*confirmado_tabaquismo.csv
+  -_confirmado_tabaquismo.csv_
   
-  -*defunciones_tabaquismo.csv 
+  -_defunciones_tabaquismo.csv_ 
 
 ## Interpretacion
 Para comprender mejor los archivos resultantes, en este repositorio se encuentran los libros con las simbologia :
 
- -*Catalogos.xlsx
+ -_Catalogos.xlsx_
  
- -*Descriptores.xlsx
+ -_Descriptores.xlsx_
