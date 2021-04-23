@@ -6,17 +6,27 @@ La limpieza y descarga los datos de la secretaría de salud para COVID-19, filtr
 
 ## Descripcion 
 Este proyecto contiene un Dockerfile, el cual instalara los paquetes necesarios para limpiar y visualizar los datos.
+```
+| CLASIFICACION_FINAL | ENTIDAD_RES | MUNICIPIO_RES | EDAD | SEXO | TABAQUISMO |  FECHA_DEF |
+| ------------------- | ----------- | ------------- | ---- | ---- | ---------- | ---------- |
+```
 
 ## Instrucciones
+En la terminal escribir el siguiente comando eligiendo el nombre que desee: 
 
 ```
-> docker build -t datos:1 .
+> docker build -t nombre_imagen . 
+```
+
+Ya que se genero la imagen, se creara el contenedor de la siguiente manera : 
+```
+> docker run -it --name nombre_contenedor nombre_imagen 
 ```
 
 ## Resultado
 Al terminar de ejecutar el script, se generaran tres archivos :
 
-  -_covid_tabaquismo_son.csv_ 
+  -_covid_tabaquismo_son.csv_  Clasificacion de personas 
   
   -_confirmado_tabaquismo.csv_
   
