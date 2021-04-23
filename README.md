@@ -28,7 +28,7 @@ Al terminar de ejecutar el script, se generaran tres archivos :
 
   >>_covid_tabaquismo_son.csv_  : Datos de personas con adiccion a tabaco en el estado de Sonora. 
   
-  >>_confirmado_tabaquismo.csv_  : Datos sobre personas que tienen Covid confirmado, adiccion al tabaco en Sonora.
+  >>_confirmado_tabaquismo.csv_  : Datos sobre personas que tienen Covid confirmado y adiccion al tabaco en Sonora.
   
   >>_defunciones_tabaquismo.csv_ : Datos sobre personas que fallecieron por covid siendo adictas al tabaco en Sonora. 
 
