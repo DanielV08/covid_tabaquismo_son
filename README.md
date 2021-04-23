@@ -12,16 +12,33 @@ Este proyecto contiene un Dockerfile, el cual instalara los paquetes necesarios 
 ```
 
 ## Instrucciones
-En la terminal escribir el siguiente comando eligiendo el nombre que desee: 
+En la terminal escribir el siguiente comando :  
 
+```
+> git clone https://github.com/DanielV08/covid_tabaquismo_son.git && cd covid_tabaquismo_son
+```
+
+A continuacion se realizara la imagen para docker de la siguiente manera: 
 ```
 > docker build -t nombre_imagen . 
 ```
+_NOTA : Puede cambiar "nombre_imagen" por el nombre que desee.
 
-Ya que se genero la imagen, se creara el contenedor de la siguiente manera : 
+Se correra la imagen de docker : 
 ```
 > docker run -it --name nombre_contenedor nombre_imagen 
 ```
+_NOTA : Puede cambiar "nombre_contenedor" por el nombre que desee._
+
+Una vez dentro del contenedor se volvere a llamar a git : 
+```
+> git clone https://github.com/DanielV08/covid_tabaquismo_son.git && cd covid_tabaquismo_son
+```
+Por ultimo se correra el scritp :
+```
+> bash filtro_tabaquismo
+```
+_NOTA : Este paso puede tardar unos minutos._
 
 ## Resultado
 Al terminar de ejecutar el script, se generaran tres archivos :
