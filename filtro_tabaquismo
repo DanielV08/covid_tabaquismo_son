@@ -1,0 +1,17 @@
+#Descarga la base de datos sobre covid en Mexico.
+curl -O http://datosabiertos.salud.gob.mx/gobmx/salud/datos_abiertos/datos_abiertos_covid19.zip
+
+#Descomprime y borra el archivo zip.
+unzip datos_abiertos_covid19.zip  && rm datos_abiertos_covid19.zip 
+
+#Filtra personas de sonora con adiccion al tabaco con 
+  #Clasificacion final-entidad-municipio-edad-sexo-tabaquismo-fecha defuncion.
+
+csvcut -c 36,8,9,16,6,30,13 *COVID19MEXICO.csv |csvgrep -c "ENTIDAD_RES" -m "26" |csvgrep -c "TABAQUISMO" -m "1"  > covid_tabaquismo_son.csv
+
+#Filtra casos confirmados en sonora de personas adictas al tabaco.
+csvgrep -c 1 -r "[123]" covid_tabaquismo_son.csv > confirmado_tabaquismo.cvs
+
+#Filtra personas adictas al tabaco que fallecieron por COVID en Sonora.
+csvgrep -i -c 7 -m "9999-99-99" confirmado_tabaquismo.csv > defunciones_tabaquismo.csv
+
