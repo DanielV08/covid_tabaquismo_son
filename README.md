@@ -10,7 +10,7 @@ Este proyecto contiene un Dockerfile, el cual instalara los paquetes necesarios 
 ## Resultado
 Al terminar de ejecutar el script, se generaran tres archivos :
 
-  -*covid_tabaquismo_son.csv 
+  -_covid_tabaquismo_son.csv_ 
   
   -*confirmado_tabaquismo.csv
   
