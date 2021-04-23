@@ -18,11 +18,13 @@ En la terminal escribir el siguiente comando :
 > git clone https://github.com/DanielV08/covid_tabaquismo_son.git && cd covid_tabaquismo_son
 ```
 
+
 A continuacion se realizara la imagen para docker de la siguiente manera: 
 ```
 > docker build -t nombre_imagen . 
 ```
-_NOTA : Puede cambiar "nombre_imagen" por el nombre que desee.
+_NOTA : Puede cambiar "nombre_imagen" por el nombre que desee._
+
 
 Se correra la imagen de docker : 
 ```
@@ -30,15 +32,18 @@ Se correra la imagen de docker :
 ```
 _NOTA : Puede cambiar "nombre_contenedor" por el nombre que desee._
 
+
 Una vez dentro del contenedor se volvere a llamar a git : 
 ```
 > git clone https://github.com/DanielV08/covid_tabaquismo_son.git && cd covid_tabaquismo_son
 ```
+
 Por ultimo se correra el scritp :
 ```
 > bash filtro_tabaquismo
 ```
 _NOTA : Este paso puede tardar unos minutos._
+
 
 ## Resultado
 Al terminar de ejecutar el script, se generaran tres archivos :
