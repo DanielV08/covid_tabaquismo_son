@@ -8,7 +8,8 @@ La limpieza y descarga los datos de la secretaría de salud para COVID-19, filtr
 Este proyecto contiene un Dockerfile, el cual instalara los paquetes necesarios para limpiar y visualizar los datos.
 ```
 | CLASIFICACION_FINAL | ENTIDAD_RES | MUNICIPIO_RES | EDAD | SEXO | TABAQUISMO |  FECHA_DEF |
-| ------------------- | ----------- | ------------- | ---- | ---- | ---------- | ---------- |
+| ------------------- | ----------- | ------------- | ---- | ---- | ---------- | -----------|
+Row count: 249
 ```
 
 ## Instrucciones
