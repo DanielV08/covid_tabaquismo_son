@@ -17,4 +17,5 @@ Al terminar de ejecutar el script, se generaran tres archivos :
 Para comprender mejor los archivos resultantes, en este repositorio se encuentran los libros con las simbologia :
 
  -*Catalogos.xlsx
+ 
  -*Descriptores.xlsx
