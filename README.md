@@ -38,7 +38,7 @@ Una vez dentro del contenedor se volvere a llamar a git :
 > git clone https://github.com/DanielV08/covid_tabaquismo_son.git && cd covid_tabaquismo_son
 ```
 
-Por ultimo se correra el scritp :
+Por ultimo se correra el script :
 ```
 > bash filtro_tabaquismo
 ```
