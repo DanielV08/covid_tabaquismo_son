@@ -10,7 +10,7 @@ unzip datos_abiertos_covid19.zip  && rm datos_abiertos_covid19.zip
 csvcut -c 36,8,9,16,6,30,13 *COVID19MEXICO.csv |csvgrep -c "ENTIDAD_RES" -m "26" |csvgrep -c "TABAQUISMO" -m "1"  > covid_tabaquismo_son.csv
 
 #Filtra casos confirmados en sonora de personas adictas al tabaco.
-csvgrep -c 1 -r "[123]" covid_tabaquismo_son.csv > confirmado_tabaquismo.cvs
+csvgrep -c 1 -r "[123]" covid_tabaquismo_son.csv > confirmado_tabaquismo.csv
 
 #Filtra personas adictas al tabaco que fallecieron por COVID en Sonora.
 csvgrep -i -c 7 -m "9999-99-99" confirmado_tabaquismo.csv > defunciones_tabaquismo.csv
