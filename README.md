@@ -1,8 +1,8 @@
-##titulo2
-#titulo 1
-###titulo 3
+## titulo2
+# titulo 1
+### titulo 3
 
--Bulleted
+- Bulleted
 
 
 
